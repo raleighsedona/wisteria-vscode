@@ -1,0 +1,140 @@
+body {
+    background-color: #19132c;
+    color: #e0e2ee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2e2749;
+    color: #d680a8;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 1em;
+    font-size: 2em;
+}
+
+a {
+    color: #a5cf31;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li::marker {
+  color: #d680a8;
+  font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+nav a {
+    color: #e0e2ee;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #a0617e;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 1em;
+    padding: 1em;
+}
+
+main .main-content {
+    background-color: #2e2749;
+    padding: 1em;
+    color: #e0e2ee;
+    border-radius: 8px;
+}
+
+main .sidebar {
+    background-color: #2e2749;
+    color: #e0e2ee;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.projects {
+    grid-column: span 2;
+    margin-top: 2em;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.project {
+    background-color: #2e2749;
+    padding: 1em;
+    border: 2px solid #796b94;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    color: white;
+    border: 2px solid #d680a8;
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+    background-color: #19132c;
+    color: #a9b1d6;
+    text-align: center;
+    padding: 1em;
+}
+
+img {
+  max-width: 75%;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}

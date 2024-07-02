@@ -1,0 +1,21 @@
+{
+  "name": "wisteria",
+  "displayName": "Wisteria",
+  "description": "Dark theme with a deep purple background and soft pink accents. Offers a serene ambiance for prolonged focus in the late night hours.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wisteria",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wisteria-color-theme.json"
+      }
+    ]
+  }
+}
