@@ -3,7 +3,7 @@
 
 <div align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=raleigh-hansen.wisteria-vscode">
-        <img alt="Marketplace Install" src="https://img.shields.io/visual-studio-marketplace/r/raleigh-hansen.wisteria-vscode?label=Rating&color=A0617E&labelColor=A0617E&style=for-the-badge&logo=visualstudiocode">
+        <img alt="Marketplace Install" src="https://img.shields.io/visual-studio-marketplace/i/raleigh-hansen.wisteria-vscode?label=Installs&color=A0617E&labelColor=A0617E&style=for-the-badge&logo=visualstudiocode">
         </img>
     </a>
     <a href="https://vscode.dev/theme/raleigh-hansen.wisteria-vscode">
@@ -38,7 +38,7 @@ Install directly from the [Visual Studio Marketplace.](https://marketplace.visua
 
 ### Manual
 1. Clone the [Wisteria repository](https://github.com/raleighsedona/wisteria-vscode) into `~/.vscode/extensions`
-2. Restart the editor and see usage
+2. Restart the editor and see Usage
 
 ## ⚙ Usage
 1. Open the command palette `Ctrl+Shift+P`
