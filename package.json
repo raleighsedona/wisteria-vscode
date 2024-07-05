@@ -37,7 +37,7 @@
     "themes": [
       {
         "label": "Wisteria",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/wisteria-color-theme.json"
       },
       {
