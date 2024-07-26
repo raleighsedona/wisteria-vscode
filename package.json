@@ -2,7 +2,7 @@
   "name": "wisteria-vscode",
   "displayName": "Wisteria",
   "description": "Dark theme with a deep purple background and soft pink accents. Offers a serene ambiance for prolonged focus in the late night hours.",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "publisher": "raleigh-hansen",
   "homepage": "https://github.com/raleighsedona/wisteria-vscode",
   "repository": {
@@ -25,6 +25,7 @@
   ],
   "keywords": [
     "dark theme",
+    "light theme",
     "purple theme",
     "pink theme",
     "themes",
@@ -36,8 +37,13 @@
     "themes": [
       {
         "label": "Wisteria",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/wisteria-color-theme.json"
+      },
+      {
+        "label": "Wisteria Light",
+        "uiTheme": "vs",
+        "path": "./themes/wisteria-light-color-theme.json"
       }
     ]
   }
